@@ -1,0 +1,26 @@
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/mixins';
+
+
+* {
+    font-family: 'MuseoModerno', cursive;  
+}
+h1, h2, h3, p, ul, ol{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 942px;
+    margin: 0 auto;
+}
+    
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/title';
+@import 'base/media'
