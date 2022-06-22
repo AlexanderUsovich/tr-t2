@@ -1,22 +1,35 @@
 .button{
-    width: 153px;
-    height: 32px;
-    background: #C70101;
+    background: $main-color;
     border: none;
     border-radius: 5px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 32px;
-    margin-top: 4px;
     cursor: pointer;
+    &_header{
+        margin-top: 4px;
+        width: 153px;
+        height: 32px;
+        font-size: 12px;
+        line-height: 32px;
+    }
     &_main{
         margin-top: 65px;
         width: 303px;
         height: 54px;
         font-size: 16px;
         line-height: 54px;
+    }
+    &_cons{
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+    }
+    &_catalog{
+        width: 135px;
+        height: 44px;
+        font-size: 14px;
+        line-height: 44px;
     }
 }
