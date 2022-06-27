@@ -1,0 +1,47 @@
+.overlay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.56);
+}
+.modal{
+    padding: 34px 0 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    background: #F2F2F2;
+    &__title{
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 19px;
+        text-align: center;
+        color: #0D0D0D;
+    }
+    &__subtitle{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+        color: #0D0D0D;
+        margin-top: 10px;
+        &_lh{
+            line-height: 22px;
+        }
+    }
+    &__close{
+        position: absolute;
+        top: -17px;
+        right: -35px;
+        color: $main-color;
+        font-size: 50px;
+        cursor: pointer;
+    }
+}
+#consultaition, #order, #thanks{
+    display: none;
+}

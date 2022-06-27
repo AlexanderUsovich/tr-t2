@@ -4,7 +4,8 @@
 
 * {
     font-family: 'MuseoModerno', cursive;
-    box-sizing: border-box;  
+    box-sizing: border-box; 
+    user-select: none; 
 }
 h1, h2, h3, p, ul, ol{
     margin: 0;
@@ -49,4 +50,5 @@ a{
 @import 'blocks/catalog-item';
 @import 'blocks/clients';
 @import 'blocks/footer';
+@import 'blocks/modal';
 @import 'base/media'
